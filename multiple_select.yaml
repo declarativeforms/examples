@@ -1,0 +1,19 @@
+version: 1
+title: "Multiple Select Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: multiple_select
+        label: How did you hear about us?
+        placeholder: Select an option
+        options:
+          - GitHub
+          - Google
+          - Product Hunt
+        validators:
+          - required
+    next: done
