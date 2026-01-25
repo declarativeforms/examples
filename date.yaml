@@ -8,7 +8,7 @@ sections:
     fields:
       - id: question_1
         type: date
-        label: What’s your birth date?
+        label: What’s your date of birth?
         placeholder: Your answer
         validators:
           - required
