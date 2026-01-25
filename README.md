@@ -13,6 +13,7 @@
 ## Connections
 
 - [Airtable](https://github.com/declarativeforms/examples/blob/main/connections_airtable.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/connections_airtable))
+- [Webhook](https://github.com/declarativeforms/examples/blob/main/connections_webhook.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/connections_webhook))
 
 ## Other
 

@@ -1,0 +1,25 @@
+version: 1
+title: "Connections: Webhook Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: short_text
+        label: What’s your name?
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_2
+        type: email
+        label: What’s your email?
+        placeholder: hello@declarativeforms.com
+        validators:
+          - required
+    next: done
+
+connections:
+  - type: webhook
+    url: https://example.com/webhook
