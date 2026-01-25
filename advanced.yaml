@@ -83,6 +83,12 @@ sections:
         validators:
           - required
       - id: question_10
+        type: url
+        label: URL
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_11
         type: dropdown
         label: Dropdown
         placeholder: Your answer
@@ -91,7 +97,7 @@ sections:
           - Option 2
         validators:
           - required
-      - id: question_11
+      - id: question_12
         type: single_select
         label: Single Select
         placeholder: Your answer
@@ -100,7 +106,7 @@ sections:
           - Option 2
         validators:
           - required
-      - id: question_12
+      - id: question_13
         type: multiple_select
         label: Multiple Select
         placeholder: Your answer
@@ -109,7 +115,7 @@ sections:
           - Option 2
         validators:
           - required
-      - id: question_13
+      - id: question_14
         type: long_text
         label: Long Text
         placeholder: Your answer

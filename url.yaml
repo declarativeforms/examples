@@ -1,0 +1,15 @@
+version: 1
+title: "URL Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: url
+        label: What’s your GitHub profile?
+        placeholder: https://github.com/declarativeforms
+        validators:
+          - required
+    next: done
