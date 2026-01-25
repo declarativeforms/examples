@@ -1,20 +1,45 @@
 version: 1
-title: "Sample"
+title: "Advanced Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
 
 sections:
   - id: section_1
     title: "Section 1"
     fields:
       - id: question_1
-        type: select
-        label: How do you usually build forms today?
-        placeholder: Select a option
+        type: short_text
+        label: First name
+        placeholder: Enter your first name
+        validators:
+          - required
+      - id: question_2
+        type: short_text
+        label: Last name
+        placeholder: Enter your last name
+        validators:
+          - required
+      - id: question_3
+        type: email
+        label: Email
+        placeholder: Enter your email
+        validators:
+          - required
+      - id: question_4
+        type: single_select
+        label: What's your role?
+        placeholder: Select an option
         options:
-          - "Visual tools (Google Forms, Typeform, etc.)"
-          - "Markdown-style tools (Tally, Notion, etc.)"
-          - "Custom code"
-          - "A mix of the above"
-          - "Other"
+          - Founder
+          - Software Engineer
+          - Product Manager
+          - Other
+        validators:
+          - required
+      - id: question_5
+        type: email
+        label: Company name
+        placeholder: Enter your company name
+        visible_when: data.question_4 === 'Founder'
         validators:
           - required
     next: section_2
@@ -22,56 +47,73 @@ sections:
   - id: section_2
     title: "Section 2"
     fields:
-      - id: question_2
-        type: select
-        label: What’s the most frustrating part of that approach?
+      - id: question_6
+        type: single_select
+        label: Would you like a quick tour of Declarative Forms?
         placeholder: Select a option
         options:
-          - Hard to keep track once forms get complex
-          - Logic/conditions feel messy
-          - Too much UI / clicking around
-          - Have to rebuild similar forms repeatedly
-          - Data ends up in the wrong place
-          - Nothing major
-          - Other
+          - Yes
+          - No
         validators:
           - required
-    next: section_3
+    next:
+      - when: data.question_6 == "Yes"
+        go: section_3
+      - else: done
 
   - id: section_3
     title: "Section 3"
     fields:
-      - id: question_3
-        type: select
-        label: Would defining forms as simple config in a GitHub repo make sense for you?
-        placeholder: Select a option
-        options:
-          - "Yes, that sounds appealing"
-          - "Maybe, I’d need to see more"
-          - "Probably not"
+      - id: question_7
+        type: short_text
+        label: Short Text
+        placeholder: Your answer
         validators:
           - required
-    next:
-      - when: data.question_3 == "Maybe, I’d need to see more" || data.question_3 == "Probably not"
-        go: section_4
-      - else: section_5
-
-  - id: section_4
-    title: "Section 4"
-    fields:
-      - id: question_4
-        type: text
-        label: If you answered “maybe” or “no”, what feels off?
-        validators:
-          - required
-    next: section_5
-
-  - id: section_5
-    title: "Section 5"
-    fields:
-      - id: email_address
+      - id: question_8
         type: email
-        label: Want to stay in the loop?
-        placeholder: foo.bar@example.com
-    next: done
+        label: Email
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_9
+        type: date
+        label: Date
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_10
+        type: dropdown
+        label: Dropdown
+        placeholder: Your answer
+        options:
+          - Option 1
+          - Option 2
+        validators:
+          - required
+      - id: question_11
+        type: single_select
+        label: Single Select
+        placeholder: Your answer
+        options:
+          - Option 1
+          - Option 2
+        validators:
+          - required
+      - id: question_12
+        type: multiple_select
+        label: Multiple Select
+        placeholder: Your answer
+        options:
+          - Option 1
+          - Option 2
+        validators:
+          - required
+      - id: question_13
+        type: long_text
+        label: Long Text
+        placeholder: Your answer
+        validators:
+          - required
+    next: https://github.com/declarativeforms
     
