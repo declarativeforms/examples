@@ -3,6 +3,7 @@
 ## Field Types
 
 - [Basic](https://github.com/declarativeforms/examples/blob/main/basic.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/basic))
+- [Date](https://github.com/declarativeforms/examples/blob/main/date.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/date))
 - [Dropdown](https://github.com/declarativeforms/examples/blob/main/dropdown.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/dropdown))
 - [Email](https://github.com/declarativeforms/examples/blob/main/email.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/email))
 - [Long Text](https://github.com/declarativeforms/examples/blob/main/long_text.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/long_text))
