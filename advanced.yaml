@@ -75,38 +75,3 @@ sections:
         placeholder: foo.bar@example.com
     next: done
     
-# rules:
-#   - on: init
-#     do:
-#       - set: startDate
-#         to: date.addDays(date.today(), 7)
-
-#   - on: change
-#     watch: startDate
-#     when: startDate != null && (endDate == null || meta.endDate.touched == false)
-#     do:
-#       - set: endDate
-#         to: date.addYears(startDate, 1)
-
-# validation:
-#   - field: startDate
-#     validators: [required]
-
-#   - field: endDate
-#     validators:
-#       - required
-#       - when: startDate != null
-#         validator:
-#           afterOrEqual: startDate
-
-#   - field: passportNumber
-#     when: idType == "Passport"
-#     validators:
-#       - required
-#       - match: { pattern: "^[A-Z0-9]{6,9}$" }
-
-#   - field: nationalIdNumber
-#     when: idType == "NationalID"
-#     validators:
-#       - required
-#       - minLength: 6
