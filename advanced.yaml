@@ -36,7 +36,7 @@ sections:
         validators:
           - required
       - id: question_5
-        type: email
+        type: short_text
         label: Company name
         placeholder: Enter your company name
         visible_when: data.question_4 === 'Founder'
