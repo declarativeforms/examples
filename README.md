@@ -20,4 +20,5 @@
 
 ## Other
 
+- [End Date](https://github.com/declarativeforms/examples/blob/main/end_date.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/end_date))
 - [Visible When](https://github.com/declarativeforms/examples/blob/main/visible_when.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/visible_when))
