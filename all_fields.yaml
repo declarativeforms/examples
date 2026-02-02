@@ -1,0 +1,67 @@
+version: 1
+title: "All Fields Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: short_text
+        label: Short Text
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_2
+        type: email
+        label: Email
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_3
+        type: date
+        label: Date
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_4
+        type: url
+        label: URL
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_5
+        type: dropdown
+        label: Dropdown
+        placeholder: Your answer
+        options:
+          - Option 1
+          - Option 2
+        validators:
+          - required
+      - id: question_6
+        type: single_select
+        label: Single Select
+        placeholder: Your answer
+        options:
+          - Option 1
+          - Option 2
+        validators:
+          - required
+      - id: question_7
+        type: multiple_select
+        label: Multiple Select
+        placeholder: Your answer
+        options:
+          - Option 1
+          - Option 2
+        validators:
+          - required
+      - id: question_8
+        type: long_text
+        label: Long Text
+        placeholder: Your answer
+        validators:
+          - required
+    next: https://github.com/declarativeforms
+    
