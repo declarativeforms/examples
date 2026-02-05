@@ -12,5 +12,5 @@ sections:
         validators:
           - required
         max: 3
-        placeholder: Up to 10MB
+        placeholder: Accepts all types of files
     next: done
