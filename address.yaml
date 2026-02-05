@@ -1,0 +1,37 @@
+version: 1
+title: "Address Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: address
+        label: Address
+        placeholder: Your answer
+        validators:
+          - required
+
+      - id: question_2
+        type: address_locality
+        label: City / Locality
+        placeholder: Your answer
+        validators:
+          - required
+
+      - id: question_3
+        type: address_region
+        label: State / Region
+        placeholder: Your answer
+        validators:
+          - required
+
+      - id: question_4
+        type: address_country
+        label: Country
+        placeholder: Your answer
+        validators:
+          - required
+
+    next: done
