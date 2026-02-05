@@ -1,0 +1,16 @@
+version: 1
+title: "File Upload Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: file_upload
+        label: Upload your documents
+        validators:
+          - required
+        max: 3
+        placeholder: Up to 10MB
+    next: done
