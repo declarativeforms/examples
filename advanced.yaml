@@ -12,6 +12,10 @@ sections:
         placeholder: Enter your first name
         validators:
           - required
+          - type: min
+            value: 2
+          - type: max
+            value: 60
       - id: question_2
         type: short_text
         label: Last name

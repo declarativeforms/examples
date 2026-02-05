@@ -11,6 +11,5 @@ sections:
         label: Upload your documents
         validators:
           - required
-        max: 3
         placeholder: Accepts all types of files
     next: done
