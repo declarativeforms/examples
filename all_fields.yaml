@@ -63,5 +63,35 @@ sections:
         placeholder: Your answer
         validators:
           - required
+      - id: question_9
+        type: file_upload
+        label: File Upload
+        placeholder: Accepts all types of files
+        validators:
+          - required
+      - id: question_10
+        type: address
+        label: Address
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_11
+        type: address_locality
+        label: City / Locality
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_12
+        type: address_region
+        label: State / Region
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_13
+        type: address_country
+        label: Country
+        placeholder: Your answer
+        validators:
+          - required
     next: https://github.com/declarativeforms
     
