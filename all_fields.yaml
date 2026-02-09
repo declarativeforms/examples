@@ -13,24 +13,42 @@ sections:
         validators:
           - required
       - id: question_2
+        type: long_text
+        label: Long Text
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_3
         type: email
         label: Email
         placeholder: Your answer
         validators:
           - required
-      - id: question_3
-        type: date
-        label: Date
+      - id: question_4
+        type: mobile_number
+        label: Mobile Number
         placeholder: Your answer
         validators:
           - required
-      - id: question_4
+      - id: question_5
+        type: number
+        label: Number
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_6
         type: url
         label: URL
         placeholder: Your answer
         validators:
           - required
-      - id: question_5
+      - id: question_7
+        type: date
+        label: Date
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_8
         type: dropdown
         label: Dropdown
         placeholder: Your answer
@@ -39,7 +57,7 @@ sections:
           - Option 2
         validators:
           - required
-      - id: question_6
+      - id: question_9
         type: single_select
         label: Single Select
         placeholder: Your answer
@@ -48,7 +66,7 @@ sections:
           - Option 2
         validators:
           - required
-      - id: question_7
+      - id: question_10
         type: multiple_select
         label: Multiple Select
         placeholder: Your answer
@@ -57,37 +75,36 @@ sections:
           - Option 2
         validators:
           - required
-      - id: question_8
-        type: long_text
-        label: Long Text
-        placeholder: Your answer
-        validators:
-          - required
-      - id: question_9
+      - id: question_11
         type: file_upload
         label: File Upload
         placeholder: Accepts all types of files
         validators:
           - required
-      - id: question_10
+      - id: question_12
+        type: signature
+        label: Signature
+        validators:
+          - required
+      - id: question_13
         type: address
         label: Address
         placeholder: Your answer
         validators:
           - required
-      - id: question_11
+      - id: question_14
         type: address_locality
         label: City / Locality
         placeholder: Your answer
         validators:
           - required
-      - id: question_12
+      - id: question_15
         type: address_region
         label: State / Region
         placeholder: Your answer
         validators:
           - required
-      - id: question_13
+      - id: question_16
         type: address_country
         label: Country
         placeholder: Your answer

@@ -10,8 +10,11 @@
 - [Email](https://github.com/declarativeforms/examples/blob/main/email.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/email))
 - [File Upload](https://github.com/declarativeforms/examples/blob/main/file_upload.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/file_upload))
 - [Long Text](https://github.com/declarativeforms/examples/blob/main/long_text.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/long_text))
+- [Mobile Number](https://github.com/declarativeforms/examples/blob/main/mobile_number.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/mobile_number))
 - [Multiple Select](https://github.com/declarativeforms/examples/blob/main/multiple_select.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/multiple_select))
+- [Number](https://github.com/declarativeforms/examples/blob/main/number.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/number))
 - [Short Text](https://github.com/declarativeforms/examples/blob/main/short_text.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/short_text))
+- [Signature](https://github.com/declarativeforms/examples/blob/main/signature.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/signature))
 - [Single Select](https://github.com/declarativeforms/examples/blob/main/single_select.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/single_select))
 - [URL](https://github.com/declarativeforms/examples/blob/main/url.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/url))
 

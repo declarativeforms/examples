@@ -1,0 +1,14 @@
+version: 1
+title: "Signature Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: signature
+        label: Signature
+        validators:
+          - required
+    next: done
