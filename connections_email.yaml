@@ -1,0 +1,33 @@
+version: 1
+title: "Connections: Email Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: short_text
+        label: What's your name?
+        placeholder: Your answer
+        validators:
+          - required
+      - id: question_2
+        type: email
+        label: What's your email?
+        placeholder: hello@declarativeforms.com
+        validators:
+          - required
+    next: done
+
+connections:
+  - type: email
+    to: hirebarend@gmail.com
+    subject: "New submission - {{form.title}}"
+    include_responses: true    # Embed answers in email body
+
+  - type: email
+    to: "{{data.question_2}}"     # Respondent confirmation
+    subject: Thanks for your submission
+    body: |
+      Hi {{data.question_1}}, we received your response.
