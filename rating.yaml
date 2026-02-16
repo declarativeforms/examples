@@ -14,7 +14,7 @@ sections:
          validators:
            - required
            - type: min
-             value: 0
+             value: 1
            - type: max
-             value: 10
+             value: 5
     next: done
