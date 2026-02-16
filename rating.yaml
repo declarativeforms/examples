@@ -1,0 +1,20 @@
+version: 1
+title: "Rating Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+       - id: question_1
+         type: rating
+         label: How likely are you to recommend us?
+         min_label: Not likely
+         max_label: Very likely
+         validators:
+           - required
+           - type: min
+             value: 0
+           - type: max
+             value: 10
+    next: done
