@@ -52,3 +52,11 @@
 - [Start Date](https://github.com/declarativeforms/examples/blob/main/start_date.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/start_date))
 - [End Date](https://github.com/declarativeforms/examples/blob/main/end_date.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/end_date))
 - [Mixpanel](https://github.com/declarativeforms/examples/blob/main/mixpanel.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/mixpanel))
+
+## The 48-Hour Promise
+
+Most form platforms have feature request boards where ideas go to die. Hundreds of requests, some over 18 months old, sitting in a backlog that never moves.
+
+We do things differently. Open a [GitHub Issue](https://github.com/declarativeforms/examples/issues) with your feature request — if it genuinely improves the product, we'll ship it within 48 hours.
+
+No waitlists. No roadmap purgatory. No "we'll consider it." Just open an issue and watch it get built.
