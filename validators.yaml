@@ -1,0 +1,32 @@
+version: 1
+title: "Validators Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: short_text
+        label: Username
+        placeholder: Enter a username
+        validators:
+          - required
+          - type: min
+            value: 3
+          - type: max
+            value: 20
+          - type: pattern
+            regex: "^[a-zA-Z0-9_]+$"
+            message: Only letters, numbers, and underscores are allowed
+      - id: question_2
+        type: number
+        label: Age
+        placeholder: Enter your age
+        validators:
+          - required
+          - type: min
+            value: 18
+          - type: max
+            value: 120
+    next: done

@@ -1,0 +1,31 @@
+version: 1
+title: "Conditional Navigation Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: single_select
+        label: Would you like to provide additional feedback?
+        options:
+          - "Yes"
+          - "No"
+        validators:
+          - required
+    next:
+      - when: data.question_1 == "Yes"
+        go: section_2
+      - else: done
+
+  - id: section_2
+    title: "Section 2"
+    fields:
+      - id: question_2
+        type: long_text
+        label: Please share your feedback
+        placeholder: Your answer
+        validators:
+          - required
+    next: done
