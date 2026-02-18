@@ -1,0 +1,22 @@
+version: 1
+title: "Completion Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: question_1
+        type: short_text
+        label: What’s your name?
+        placeholder: John
+        validators:
+          - required
+    next: done
+  
+completion:
+  title: Thank you, {{data.question_1}}!
+  message: We've received your application and will be in touch within 48 hours.
+  button:
+    label: Visit our website
+    url: https://example.com
