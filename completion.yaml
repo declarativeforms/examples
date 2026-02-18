@@ -7,7 +7,7 @@ sections:
     title: "Section 1"
     fields:
       - id: question_1
-        type: email
+        type: short_text
         label: What’s your name?
         placeholder: John
         validators:
