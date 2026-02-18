@@ -1,0 +1,36 @@
+version: 1
+title: "Searchable Dropdown Example"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim orci eget risus tincidunt ultrices."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: country
+        type: dropdown
+        label: Which country are you from?
+        placeholder: Select a country
+        searchable: true
+        options:
+          - Argentina
+          - Australia
+          - Brazil
+          - Canada
+          - China
+          - France
+          - Germany
+          - India
+          - Italy
+          - Japan
+          - Mexico
+          - Netherlands
+          - New Zealand
+          - Nigeria
+          - South Africa
+          - South Korea
+          - Spain
+          - United Kingdom
+          - United States
+        validators:
+          - required
+    next: done
