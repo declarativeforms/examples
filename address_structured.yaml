@@ -1,0 +1,17 @@
+version: 1
+title: "Address (Structured Output) Example"
+description: "Demonstrates the structured output format for address fields, which returns individual address components instead of a plain string."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: home_address
+        type: address
+        label: Home address
+        placeholder: Start typing your address
+        outputFormat: structured
+        validators:
+          - required
+
+    next: done

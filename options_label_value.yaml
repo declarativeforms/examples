@@ -1,0 +1,55 @@
+version: 1
+title: "Options with Label/Value Example"
+description: "Demonstrates the label/value option syntax, where the displayed label differs from the stored value."
+
+sections:
+  - id: section_1
+    title: "Section 1"
+    fields:
+      - id: country
+        type: dropdown
+        label: Country
+        placeholder: Select a country
+        options:
+          - value: us
+            label: "United States"
+          - value: gb
+            label: "United Kingdom"
+          - value: de
+            label: "Germany"
+          - value: fr
+            label: "France"
+          - value: jp
+            label: "Japan"
+        validators:
+          - required
+
+      - id: priority
+        type: single_select
+        label: Priority level
+        options:
+          - value: p1
+            label: "Critical"
+          - value: p2
+            label: "High"
+          - value: p3
+            label: "Medium"
+          - value: p4
+            label: "Low"
+        validators:
+          - required
+
+      - id: features
+        type: multiple_select
+        label: Which features do you use?
+        options:
+          - value: feat_forms
+            label: "Form Builder"
+          - value: feat_connect
+            label: "Connections"
+          - value: feat_logic
+            label: "Conditional Logic"
+          - value: feat_analytics
+            label: "Analytics"
+
+    next: done

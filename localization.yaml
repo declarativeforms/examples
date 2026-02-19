@@ -1,0 +1,79 @@
+version: 1
+title:
+  en: "Customer Feedback"
+  es: "Opinión del cliente"
+description:
+  en: "We'd love to hear from you. Please share your experience."
+  es: "Nos encantaría saber de ti. Comparte tu experiencia."
+
+sections:
+  - id: section_1
+    title:
+      en: "Your Details"
+      es: "Tus datos"
+    fields:
+      - id: name
+        type: short_text
+        label:
+          en: "Full name"
+          es: "Nombre completo"
+        placeholder:
+          en: "Enter your name"
+          es: "Ingresa tu nombre"
+        validators:
+          - required
+
+      - id: satisfaction
+        type: single_select
+        label:
+          en: "How satisfied are you?"
+          es: "¿Qué tan satisfecho estás?"
+        options:
+          - value: very_satisfied
+            label:
+              en: "Very satisfied"
+              es: "Muy satisfecho"
+          - value: satisfied
+            label:
+              en: "Satisfied"
+              es: "Satisfecho"
+          - value: neutral
+            label:
+              en: "Neutral"
+              es: "Neutral"
+          - value: dissatisfied
+            label:
+              en: "Dissatisfied"
+              es: "Insatisfecho"
+        validators:
+          - required
+
+      - id: comments
+        type: long_text
+        label:
+          en: "Additional comments"
+          es: "Comentarios adicionales"
+        placeholder:
+          en: "Tell us more..."
+          es: "Cuéntanos más..."
+        validators:
+          - type: max
+            value: 500
+            message:
+              en: "Please keep your response under 500 characters."
+              es: "Mantén tu respuesta en menos de 500 caracteres."
+
+    next: done
+
+completion:
+  title:
+    en: "Thank you!"
+    es: "¡Gracias!"
+  message:
+    en: "Your feedback has been submitted."
+    es: "Tu opinión ha sido enviada."
+  button:
+    label:
+      en: "Back to homepage"
+      es: "Volver al inicio"
+    url: "https://example.com"

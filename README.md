@@ -25,10 +25,12 @@
 - [Single Select](https://github.com/declarativeforms/examples/blob/main/single_select.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/single_select))
 - [Multiple Select](https://github.com/declarativeforms/examples/blob/main/multiple_select.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/multiple_select))
 - [Rating](https://github.com/declarativeforms/examples/blob/main/rating.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/rating))
+- [Options with Label/Value](https://github.com/declarativeforms/examples/blob/main/options_label_value.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/options_label_value))
 
 ### Advanced
 
 - [Address](https://github.com/declarativeforms/examples/blob/main/address.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/address))
+- [Address (Structured Output)](https://github.com/declarativeforms/examples/blob/main/address_structured.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/address_structured))
 - [File Upload](https://github.com/declarativeforms/examples/blob/main/file_upload.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/file_upload))
 - [Signature](https://github.com/declarativeforms/examples/blob/main/signature.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/signature))
 - [Hidden](https://github.com/declarativeforms/examples/blob/main/hidden.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/hidden))
@@ -51,6 +53,7 @@
 - [Custom Completion Page](https://github.com/declarativeforms/examples/blob/main/completion.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/completion))
 - [Start Date](https://github.com/declarativeforms/examples/blob/main/start_date.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/start_date))
 - [End Date](https://github.com/declarativeforms/examples/blob/main/end_date.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/end_date))
+- [Localization](https://github.com/declarativeforms/examples/blob/main/localization.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/localization))
 - [Mixpanel](https://github.com/declarativeforms/examples/blob/main/mixpanel.yaml) ([Demo](https://app.declarativeforms.com/declarativeforms/examples/mixpanel))
 
 ## The 48-Hour Promise
