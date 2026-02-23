@@ -110,5 +110,10 @@ sections:
         placeholder: Your answer
         validators:
           - required
+      - id: question_17
+        type: geolocation
+        label: Location
+        validators:
+          - required
     next: https://github.com/declarativeforms
     
