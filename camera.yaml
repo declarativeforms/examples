@@ -1,0 +1,28 @@
+version: 1
+title: Photo Verification
+description: Please complete this form by taking the required photos.
+sections:
+  - id: photos
+    title: Take Photos
+    fields:
+      - id: id_photo
+        type: camera
+        label: Photo ID
+        facing_mode: rear
+        validators:
+          - required
+
+      - id: selfie
+        type: camera
+        label: Selfie
+        facing_mode: front
+        validators:
+          - required
+
+      - id: full_name
+        type: short_text
+        label: Full Name
+        validators:
+          - required
+
+    next: done
