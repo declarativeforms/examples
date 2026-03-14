@@ -1,0 +1,45 @@
+version: 1
+title: Contact Us
+description: We'd love to hear from you. Fill out the form below and we'll get back to you shortly.
+
+sections:
+  - id: contact
+    title: Your Details
+    fields:
+      - id: name
+        type: short_text
+        label: Full Name
+        validators:
+          - required
+
+      - id: email
+        type: email
+        label: Email Address
+        validators:
+          - required
+
+      - id: message
+        type: long_text
+        label: Message
+        placeholder: Tell us what's on your mind...
+        validators:
+          - required
+          - type: min_length
+            value: 10
+            message: Please provide at least 10 characters.
+
+      - id: turnstile
+        type: turnstile
+        label: Verification
+        validators:
+          - required
+
+    next: done
+
+completion:
+  title: Thank you!
+  message: We've received your message and will be in touch soon.
+
+connections:
+  - type: webhook
+    url: https://example.com/webhook
